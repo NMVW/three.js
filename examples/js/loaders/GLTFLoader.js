@@ -6,7 +6,7 @@
  * @author Don McCurdy / https://www.donmccurdy.com
  */
 
-THREE.GLTFLoader = ( function () {
+const GLTFLoader = function (THREE) {
 
 	function GLTFLoader( manager ) {
 
@@ -3161,4 +3161,6 @@ THREE.GLTFLoader = ( function () {
 
 	return GLTFLoader;
 
-} )();
+};
+
+export default GLTFLoader;
