@@ -3163,4 +3163,4 @@ const GLTFLoader = function (THREE) {
 
 };
 
-export default GLTFLoader;
+export { GLTFLoader };
