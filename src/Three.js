@@ -1,6 +1,5 @@
 import './polyfills.js';
 
-export { GLTFLoader } from '../examples/js/loaders/GLTFLoader.js';
 export { WebGLRenderTargetCube } from './renderers/WebGLRenderTargetCube.js';
 export { WebGLRenderTarget } from './renderers/WebGLRenderTarget.js';
 export { WebGLRenderer } from './renderers/WebGLRenderer.js';
@@ -47,6 +46,7 @@ export { FontLoader } from './loaders/FontLoader.js';
 export { FileLoader } from './loaders/FileLoader.js';
 export { Loader } from './loaders/Loader.js';
 export { LoaderUtils } from './loaders/LoaderUtils.js';
+export { GLTFLoader } from './loaders/GLTFLoader.js';
 export { Cache } from './loaders/Cache.js';
 export { AudioLoader } from './loaders/AudioLoader.js';
 export { SpotLightShadow } from './lights/SpotLightShadow.js';
