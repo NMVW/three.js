@@ -1,5 +1,5 @@
 {
-  "name": "@generate/three",
+  "name": "generate-three",
   "version": "1.0.0",
   "description": "Generate JavaScript 3D library",
   "main": "build/three.js",
