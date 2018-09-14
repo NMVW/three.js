@@ -1,9 +1,9 @@
 {
-  "name": "three",
-  "version": "0.96.0",
-  "description": "JavaScript 3D library",
+  "name": "@generate/three",
+  "version": "1.0.0",
+  "description": "Generate JavaScript 3D library",
   "main": "build/three.js",
-  "repository": "mrdoob/three.js",
+  "repository": "nmvw/three.js",
   "jsnext:main": "build/three.module.js",
   "module": "build/three.module.js",
   "files": [
@@ -44,10 +44,10 @@
     "3d",
     "webgl"
   ],
-  "author": "mrdoob",
+  "author": "mrdoob, extended by nmvw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrdoob/three.js/issues"
+    "url": "https://github.com/nmvw/three.js/issues"
   },
   "homepage": "https://threejs.org/",
   "devDependencies": {
