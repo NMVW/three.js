@@ -12,9 +12,10 @@
 //    Orbit - left mouse / touch: one-finger move
 //    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish
 //    Pan - right mouse, or left mouse + ctrl/metaKey, or arrow keys / touch: two-finger move
+import * as THREE from '../Three.js';
 
-const OrbitControls = function ( THREE ) {
-  return function ( object, domElement ) {
+
+const OrbitControls = function ( object, domElement ) {
 
 	this.object = object;
 
@@ -1050,6 +1051,5 @@ Object.defineProperties( THREE.OrbitControls.prototype, {
 	}
 
 } );
-}
 
 export { OrbitControls };
