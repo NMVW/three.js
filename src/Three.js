@@ -68,6 +68,7 @@ export { CubeCamera } from './cameras/CubeCamera.js';
 export { ArrayCamera } from './cameras/ArrayCamera.js';
 export { Camera } from './cameras/Camera.js';
 export { OrbitControls } from './controls/OrbitControls.js';
+export { TransformControls } from './controls/TransformControls.js';
 export { AudioListener } from './audio/AudioListener.js';
 export { PositionalAudio } from './audio/PositionalAudio.js';
 export { AudioContext } from './audio/AudioContext.js';
