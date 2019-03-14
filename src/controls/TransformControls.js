@@ -13,10 +13,10 @@ const TransformControls = function ( camera, domElement ) {
 
 	this.visible = false;
 
-	var _gizmo = new THREE.TransformControlsGizmo();
+	var _gizmo = new TransformControlsGizmo();
 	this.add( _gizmo );
 
-	var _plane = new THREE.TransformControlsPlane();
+	var _plane = new TransformControlsPlane();
 	this.add( _plane );
 
 	var scope = this;
@@ -1368,7 +1368,7 @@ TransformControlsGizmo.prototype = Object.assign( Object.create( THREE.Object3D.
 } );
 
 
-TransformControlsPlane = function () {
+const TransformControlsPlane = function () {
 
 	'use strict';
 
